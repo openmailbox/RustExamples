@@ -43,8 +43,14 @@
     <Reference Include="Facepunch.Console">
       <HintPath>lib\RustDedicated_Data\Managed\Facepunch.Console.dll</HintPath>
     </Reference>
+    <Reference Include="Facepunch.Network">
+      <HintPath>lib\RustDedicated_Data\Managed\Facepunch.Network.dll</HintPath>
+    </Reference>
     <Reference Include="Facepunch.Rcon">
       <HintPath>lib\RustDedicated_Data\Managed\Facepunch.Rcon.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.UnityEngine">
+      <HintPath>lib\RustDedicated_Data\Managed\Facepunch.UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Data.Tds">
       <HintPath>lib\RustDedicated_Data\Managed\Mono.Data.Tds.dll</HintPath>
@@ -85,10 +91,20 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Transactions" />
+    <Reference Include="UnityEngine">
+      <HintPath>lib\RustDedicated_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>lib\RustDedicated_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <Compile Include="src\GuiTest.cs" />
+    <Compile Include="src\HelloWorld.cs" />
+    <Compile Include="src\Recall.cs" />
+    <Compile Include="src\SpawnGift.cs" />
+    <Compile Include="test\Test.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
